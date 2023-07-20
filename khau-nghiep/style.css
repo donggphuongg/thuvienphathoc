@@ -1,0 +1,25 @@
+body { 
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #1f497d;
+    font-weight: bold;
+    font-style: italic;
+}
+p {
+    text-align: justify;
+    justify-self: auto;
+    font-size: larger;
+    text-indent: 50px;
+}
+div {
+    text-align: center;
+    font-size: larger;
+}
+h3 {
+    text-align: right;
+    font-weight: normal;
+    font-style: italic;
+}
