@@ -2,6 +2,15 @@ body {
     user-select: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+.anhbia {
+    max-height: calc(100vh - 20px);
+}
+div.demuc {
+    padding: 10px;
+}
+div.demuc:hover {
+    background-color: rgb(210, 255, 240);
+}
 a {
     text-decoration: none;
     color: #1f497d;
