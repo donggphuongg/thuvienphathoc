@@ -14,16 +14,30 @@ div a {
     border: solid 1px white;
     border-radius: 8px;
     transition: ease 0.5s;
+    max-width: 280px;
 }
 div a:hover {
     border-color: #1f497d;
 }
 div a img {
-    max-width: 240px;
+    max-width: 100px;
 }
 div a div {
     font-weight: bold;
     color: #1f497d;
+}
+div.audiocontent {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 24px;
+}
+div.audiocontent div div {
+    font-weight: bold;
+    color: #1f497d;
+
+}
+div.audiocontent div audio {
+    width: 100%;
 }
 @media screen and (min-width: 560px) {
     div.content {
@@ -32,6 +46,9 @@ div a div {
 }
 @media screen and (min-width: 960px) {
     div.content {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    }
+    div.audiocontent {
+        grid-template-columns: auto auto;
     }
 }
