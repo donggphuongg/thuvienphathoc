@@ -36,9 +36,6 @@ div.audiocontent div div {
     color: #1f497d;
 
 }
-div.audiocontent div audio {
-    width: 100%;
-}
 @media screen and (min-width: 560px) {
     div.content {
         grid-template-columns: auto auto;
